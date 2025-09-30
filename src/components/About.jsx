@@ -1,6 +1,5 @@
 import my_img from "../assets/profile-img.jpg"
 import curved_arr from "../assets/curve-arrow.png"
-import resume from "../assets/MayMyatMon_Developer_Resume.pdf"
 
 export default function About({aboutRef,className}) {
     return (
@@ -17,7 +16,7 @@ export default function About({aboutRef,className}) {
                             It's May Myat Mon! A CS student who’s passionate about learning and building. Right now, I’m focused on React and front-end development, but my long-term goal is to become a full-stack developer. I believe the best way to learn is by doing, so I love working on small projects that challenge me to explore new concepts and push my coding skills further. Beyond coding, I’m curious, adaptable, and eager to keep improving.
                         </p>
                         <img className="arrow-svg" src={curved_arr} alt="" />
-                        <a href={resume} download="Resume_MayMyatMon.pdf"><span><i className="fa-solid fa-download"></i></span>Check out my resume</a>
+                        <a href="https://drive.google.com/file/d/1TCYjoTTF754_9Z489Dkda3a9dx0DkzJL/view?usp=sharing"><span><i className="fa-solid fa-download"></i></span>Check out my resume</a>
                     </div>
                 </div>
 
