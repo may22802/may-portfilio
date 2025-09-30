@@ -14,7 +14,7 @@ export default function Contact({ contactRef, className }) {
                     <p>
                         Looking for a motivated entry-level developer? I’d be happy to talk about how I can bring value to your team. Drop me a message and I’ll get back to you as soon as I can.
                     </p>
-                    <a href="https://www.linkedin.com/in/may-myat-mon-580a4225a/">Reach me on LinkedIn</a>
+                    <a target="_blank" href="https://www.linkedin.com/in/may-myat-mon-580a4225a/">Reach me on LinkedIn</a>
                 </div>
             </div>
         </>

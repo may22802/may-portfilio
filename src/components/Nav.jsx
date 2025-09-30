@@ -16,9 +16,9 @@ export default function Nav({introRef,aboutRef, eduRef,skillRef,projectRef,conta
                     <button onClick={() => scrollToSection(contactRef)}>CONTACTS</button>
                 </div>
                 <ul className= "nav-socials">
-                    <li><a href="mailto:maymyatmon22802@gmail.com"><i className="fa-regular fa-envelope"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/may-myat-mon-580a4225a/"><i className="fa-brands fa-linkedin-in"></i></a></li>
-                    <li><a href="https://github.com/may22802?tab=repositories"><i className="fa-brands fa-github"></i></a></li>
+                    <li><a target="_blank" href="mailto:maymyatmon22802@gmail.com"><i className="fa-regular fa-envelope"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/may-myat-mon-580a4225a/"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/may22802?tab=repositories"><i className="fa-brands fa-github"></i></a></li>
                 </ul>
                 </div>
                 <div className="hamburger-menu">
