@@ -23,7 +23,7 @@ export default function Intro({introRef,className,projectRef,scrollToSection}) {
                     }}
                     repeat={Infinity}
                 />
-                <p className="intro-text-2">I’m a passionate CS student with a growing focus on React and front-end development. I’m building my skills every day with the goal of becoming a full-stack developer.</p>
+                <p className="intro-text-2">I’m a passionate computer science student with a growing focus on React and front-end development. I’m building my skills every day with the goal of becoming a full-stack developer.</p>
 
                 <button className="intro-btn" onClick={() => scrollToSection(projectRef)}>Check out my projects!</button>
             </div>
